@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador y desencriptador de texto</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="encripDesencrip.js"></script> 
+
+</head>
+
+
+<body> 
+    
+    <header>
+        <img class="logo-alura" src = "img/LogoaluraLogo.svg" alt = "Logo Alura">
+    </header>
+
+    <button onclick="encriptar()" class="botenc" src="img/boton-enc.png" alt="boton encriptar"> Encriptar</button>
+    <button onclick="desencriptar()" class="botdes" src="img/btn-des.png" alt="boton desencriptar"> Desencriptar</button>
+
+    <main>
+        <form action="">
+        <textarea class="ingresetex" name=" " id="textInput" cols="" rows="">Ingrese el texto aqui</textarea>
+        <textarea class="fondomune" name=" " id="result" cols="" rows="10"></textarea>
+        <div class="btn_container">
+            <div class="alert_msj"><img src="" alt="">
+                <sp>
+                Ingresa solo letras minusculas y sin acento</span></div>
+        </div>  
+        
+    </form>
+    </main>
+    
+    <aside class= "result">
+        <img class="munecolupa" src="\img\Munecoiconolupa.svg", alt="", class="result_img">
+    
+        <div class="result_container">
+        <h3 class="result_title">Ningun mensaje fue encontrado</h3>
+        <p class="mensaje-ingrese-texto-enc">Ingresa el texto que deseas encriptar o desencriptar</p>
+        </div>
+        
+   
+    </aside>
+    
+</body>
+<footer>
+
+    <p class="piepag">Diseñado por: Estefania de los Angeles Cortes H.</p>
+</footer>
+
+</html>

@@ -1,0 +1,171 @@
+*{
+    padding: 30;
+    margin: 35;
+}
+
+body{
+    background-color: #e5e5e5;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    line-height: 1.5;
+    box-sizing: border-box;
+    height: 100vh;
+    justify-content: center;
+    flex-direction: row-reverse;
+
+}
+
+.munecolupa{
+    background-color: white;
+    position: absolute;
+    top: 70px;
+    right: 170px;;
+    width: 270px;
+    height: 500px;
+    border: 3px;
+}
+
+.fondomune{
+    margin: auto;
+    position: absolute;
+    top: 60px;;
+    right: 100px;
+    width: 430px;
+    height: 540px;
+    border: 2px;
+}
+
+.result_title{
+    color: black;
+    position: absolute;
+    top: 400px;
+    right: 0;
+    width: 450px;
+    height: 100px;
+    align-items:end;
+    align-content:flex-start;
+    text-align:justify;
+}
+
+.btn_container{
+    
+    font-style: normal;
+    box-sizing: border-box;
+    justify-content: space-between;
+    flex-direction:row-reverse;
+
+}
+
+.alert_msj{
+    color: gray;
+}
+
+button{
+    background-color:darkblue;
+    font-style:normal;
+    font-size: medium;
+    display:contents
+    box-sizing:content-box;
+    block-size: 1cm;
+    align-content: flex-start;
+    gap: 100px;
+    flex-direction: column;
+
+
+}
+
+.mensaje-ingrese-texto-enc{
+    color: gray;
+    position: absolute;
+    top: 450px;
+    right: 0;
+    width: 500px;
+    height: 100px;
+    align-items: center;
+    align-content:flex-start;
+    border: 3px;
+
+}
+
+img{
+    background-color: beige;
+    align-items: center;
+    /*align-content: flex-end;
+    box-sizing:content-box;
+    height: fit-content;
+    size-adjust:initial;
+    width:fit-content;
+    position:initial;
+    top: 10cap;
+    justify-content:end;
+    display: flex;
+    margin: 8%;
+    flex-direction: row-reverse;
+    order:unset;
+    height: em; */
+}
+
+.logo-alura{
+    align-items:center;
+    background-color: #e5e5e5;
+    justify-content:flex-end;
+    align-items:normal;
+    width: 120;
+    height: 48;
+}
+
+.ingresetex{
+    position: relative;
+    width: 650px;
+    height: 450px;
+    border: 3px;
+    margin: auto;
+
+}
+
+p{
+    color:blueviolet
+}
+
+.botenc{
+    color: white;
+    border-radius:0cap;
+    top: 900;
+    justify-self: auto;
+    position: absolute;
+    border: 1px solid blue;
+    width: 300px;
+    height: 70px;
+    bottom: 90px;
+    
+}
+
+.botdes{
+    color: black;
+    top: 900;
+    position: absolute;
+    background-color: aliceblue;
+    width: 300px;
+    height: 70px;
+    bottom: 0px;
+}
+
+.piepag{
+    font-style: oblique;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    font-weight: 200;
+    font-size: large;
+    color: darkblue;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    width: auto;
+    text-decoration:underline;
+    position:-webkit-sticky;
+    bottom: 0px;
+}
+
+
+
